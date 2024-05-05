@@ -15,23 +15,25 @@ The 'housing.csv'  file contains data on various attributes. Here's a breakdown 
 - Ocean_proximity: Proximity of the housing area to the ocean (e.g., 'Near Bay', 'Inland', 'Near Ocean', etc.).
 
 ## :mag: Data Cleansing
-* Used OneHotEncoder on the 3 which is a categorical columns.
 * Filled missing values using mean strategy.
-* Created boxplots for each column to check for outliers. Here is a box plot for Monthly Income column:
+* Used OneHotEncoder on ocean_proximity (categorical column).
+* Created boxplots for each column to check for outliers. Here is a box plot for Population column:
   
   <img width="584" alt="Box Plot for Population" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/73fcc612-fbb7-4f4c-8c9b-86496dbbb4f3">
 
 
 * Ploted histograms for each column to see if the data is balanced or not:
 
-  <img width="736" alt="Histograms" src="https://github.com/FlammeTik/AI_HR_Attrition/assets/95188070/4149b177-dd7c-4291-b23c-7d48accd7d83">
+  <img width="479" alt="Histograms" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/6ecbee0a-c8c3-4504-ace5-3ea7e99e78ed">
+
 
 * Ploted heat map for correlation matrix:
 
-  <img width="671" alt="Correlation Matrix" src="https://github.com/FlammeTik/AI_HR_Attrition/assets/95188070/82b16f3b-4271-4d30-bebf-f8c476194267">
+  <img width="460" alt="Correlation Matrix" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/806171c4-c0fe-44c0-b84b-f5a7af737dd1">
+
 
 * Applied the standard scaler since there were outliers within the data.
-* Created the data pipeline encompassing all transformation steps for later use in machine learning.
+* Created the data pipeline encompassing all transformation steps for later use for modeling.
 
 ## :desktop_computer:	Modeling
 
