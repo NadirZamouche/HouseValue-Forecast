@@ -18,6 +18,7 @@ The 'housing.csv'  file contains data on various attributes. Here's a breakdown 
 * Used OneHotEncoder on the 3 which is a categorical columns.
 * Filled missing values using mean strategy.
 * Created boxplots for each column to check for outliers. Here is a box plot for Monthly Income column:
+  
   <img width="584" alt="Box Plot for Population" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/73fcc612-fbb7-4f4c-8c9b-86496dbbb4f3">
 
 
