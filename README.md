@@ -59,6 +59,8 @@ The 'housing.csv'  file contains data on various attributes. Here's a breakdown 
 <img width="459" alt="Feature Importance" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/588f84d1-4657-499e-8f8a-64ea290257ef">
 
 ## 🔨 Conclusion
+The analysis highlights the importance of ocean proximity, particularly being inland, followed by island properties, in predicting house prices. Additionally, median income is also a significant factor in determining housing prices, although slightly less influential compared to ocean proximity. This information can be valuable for understanding the drivers of housing market dynamics and making informed decisions in real estate investments or policy-making.
 This model has shown very excellent results since the marginal error is very small, therfore it can be implemented for later use as you can see in this illustration:
 
 <img width="258" alt="Results" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/4ca5fba8-4bcb-4370-9d8b-4b050bb8197b">
+
