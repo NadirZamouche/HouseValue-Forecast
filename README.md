@@ -36,5 +36,29 @@ The 'housing.csv'  file contains data on various attributes. Here's a breakdown 
 * Created the data pipeline encompassing all transformation steps for later use for modeling.
 
 ## :desktop_computer:	Modeling
+* Utilizing the previous data pipeline. I partitioned the data into two sets: 75% designated for training and 20% allocated for testing. Also, since we're in a situation of regression I couldn't use the StratifiedShuffleSplit as I used to in classfication splits.
+* Employed five distinct regression models, systematically assessing for overfitting through cross-validation techniques. Subsequently, I computed various evaluation metrics for each model and discerned the optimal choice based on MAE (Mean Absolute Error).
+
+<img width="473" alt="Evaluation Metrics" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/b0a51247-230a-4854-b6dd-ad67f3d6fdd6">
+
+* Conducted hyper-parameter tuning for eXtream Gradient Bossting Regressor, meticulously exploring various settings to ascertain the most effective combination for optimal performance.
+
+<img width="262" alt="Best Parameters Combination" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/bb93ef3d-9468-4a54-b284-2368f58f5512">
+
+* Tested the final model on the test set with relatively better results:
+
+<img width="162" alt="Evaluation Metrics (Tuned Model)" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/479970f1-28d1-4e94-8443-9d838507afc5">
+
+* Retested the final model on the whole entry dataset with even better results:
+
+<img width="134" alt="Evaluation Metrics (Whole Set)" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/f96d4cf8-9219-4af4-8b81-2fe07b42dc13">
 
 ## :chart_with_upwards_trend: Feature Importance
+* Here is a chart showing the sorted contribution of each column to the target column "median_house_value":
+
+<img width="459" alt="Feature Importance" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/588f84d1-4657-499e-8f8a-64ea290257ef">
+
+## 🔨 Conclusion
+This model has shown very excellent results since the marginal error is very small as you can see in this illustration:
+
+<img width="258" alt="Results" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/4ca5fba8-4bcb-4370-9d8b-4b050bb8197b">
