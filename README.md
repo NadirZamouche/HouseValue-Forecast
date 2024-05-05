@@ -14,4 +14,6 @@ The 'housing.csv'  file contains data on various attributes. Here's a breakdown 
 - Median_house_value: Median value of houses in the area.
 - Ocean_proximity: Proximity of the housing area to the ocean (e.g., 'Near Bay', 'Inland', 'Near Ocean', etc.).
 
-## :mag: Data Pre-processing
+## :mag: Data Cleansing
+
+## :desktop_computer:	Modeling
