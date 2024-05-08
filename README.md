@@ -36,7 +36,7 @@ The 'housing.csv'  file contains data on various attributes. Here's a breakdown 
 * Created the data pipeline encompassing all transformation steps for later use for modeling.
 
 ## :desktop_computer:	Modeling
-* Utilizing the previous data pipeline. I partitioned the data into two sets: 75% designated for training and 20% allocated for testing. Also, since we're in a situation of regression I couldn't use the StratifiedShuffleSplit as I used to in classfication splits.
+* Utilizing the previous data pipeline. I partitioned the data into two sets: 75% designated for training and 25% allocated for testing. Also, since we're in a situation of regression I couldn't use the StratifiedShuffleSplit as I used to in classfication splits.
 * Employed five distinct regression models, systematically assessing for overfitting through cross-validation techniques. Subsequently, I computed various evaluation metrics for each model and discerned the optimal choice based on MAE (Mean Absolute Error).
 
 <img width="473" alt="Evaluation Metrics" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/b0a51247-230a-4854-b6dd-ad67f3d6fdd6">
