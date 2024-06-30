@@ -63,4 +63,3 @@ The analysis highlights the importance of ocean proximity, particularly being in
 This model has shown very excellent results since the marginal error is very small, therfore it can be implemented for later use as you can see in this illustration:
 
 <img width="258" alt="Results" src="https://github.com/NadirZamouche/HouseValue-Forecast/assets/95188070/4ca5fba8-4bcb-4370-9d8b-4b050bb8197b">
-
